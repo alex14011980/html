@@ -1,0 +1,39 @@
+a{
+    text-decoration: none;
+}
+.menu{
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+.menu:hover{
+    color: red;
+}
+.title{
+    color: #fff;
+    font-size: 28px;
+    line-height: 36px;
+    font-size: bold;
+}
+.text {
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7d7987;
+}
+p::selection{
+    color: red;
+    background: yellow;
+}
+.subtitle{
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+.li::marker{
+    content: '✝';
+    font-size: 1.2em;
+}
